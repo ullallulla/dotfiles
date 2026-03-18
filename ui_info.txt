@@ -1,0 +1,53 @@
+taskbarin paikan vaihtaminen
+/home/allu/.config/plasma-org.kde.plasma.desktop-appletsrc
+
+[Containments][48]
+activityId=
+formfactor=2
+immutability=1
+lastScreen=0
+location=3
+plugin=org.kde.panel
+wallpaperplugin=org.kde.image
+
+location 3 on ylhäällä, 0 alhaalla
+
+
+
+
+taskbarin floating asetus
+/home/allu/.config/plasmashellrc
+
+[PlasmaViews][Panel 48]
+floating=0
+floatingApplets=0
+panelLengthMode=0
+panelVisibility=0
+
+floating 0 = ei kellutusta, 1 on kellutus
+
+/home/allu/.config/plasmashellrc
+taskbarin paksuus
+
+[PlasmaViews][Panel 48][Defaults]
+maxLength=1536
+minLength=1536
+offset=0
+thickness=32
+
+thickness muuttaa paksuutta
+
+
+https://github.com/juxtopposed/Mystical-Blue-Theme
+https://github.com/nonetrix/tokyonight-kde/blob/main/TokyoNight.colors
+
+
+plasma widgetit
+-kara
+-weather widget plus
+
+loading ikoni - löydä cursors ja sitten "configure launch feedback"
+
+
+kursorin suurentuminen ravistaessa
+accessibility - shake cursor
